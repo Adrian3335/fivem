@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+<!--
+  _____ _____  ______     _  _______ ______ _____    ______     __  _   _   _   ______ _______   _____  _____  ______ _____   _____
+ / ____|  __ \|  ____|   / \|__   __|  ____|  __ \  |  _ \ \   / / | \ | | | | |  ____|__   __| / ___ \|  __ \|  ____|  __ \ |__   |
+| |    | |__) | |__     / _ \  | |  | |__  | |  | | | |_)|\ \_/ /  |  \| | | | | |__     | |   | /   \ | |__) | |__  | |__) |   / /
+| |    |  _  /|  __|   / /_\ \ | |  |  __| | |  | | |  _ < \   /   | . ` | | | |  __|    | |   | |   | |  ___/|  __| |  _  /   / /
+| |____| | \ \| |____ / _____ \| |  | |____| |__| | | |_) | | |    | |\  | | | | |____   | |   | \___/ | |    | |____| | \ \  / /__
+ \_____|_|  \_\______/_/     \_\_|  |______|_____/  |____/  |_|    |_| \_| |_| |______|  |_|    \_____/|_|    |______|_|  \_\|_____|
+Nietoperz#9211
+-->
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_G19GRU_CLIP_FMJ</Name>
+			<Model>w_pi_g19gru_mag1</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_CP_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="18"/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+

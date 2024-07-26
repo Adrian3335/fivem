@@ -1,0 +1,338 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.MainHud {
+    display: flex;
+    position: absolute;
+    bottom: 1.5%;
+    left: 44%;
+    gap: 1vh;
+    font-size: 21px;
+    overflow: hidden;
+}
+
+.carHud {
+    display: flex;
+    position: absolute;
+    bottom: -15%;
+    right: 1%;
+    gap: 1vh;
+    color: white;
+    overflow: hidden;
+}
+
+.speedometer {
+    transform: translateY(500px);
+    transition: 1s;
+    position: absolute;
+    bottom: 3vh;
+    right: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: white;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress {
+    border-radius: 10px;
+    background-color: rgba(13, 15, 17, 0.847);
+    border: 1px solid rgba(39, 39, 39, 0.741);
+    height: 2vh;
+    width: 20vw;
+    transition: .2s;
+}
+
+.progressValue {
+    position: absolute;
+    height: 2vh;
+    border-radius: 10px;
+    background-color: rgba(57, 165, 238);
+    transition: .2s;
+}
+
+.details {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#speed {
+    margin-bottom: -10px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(13, 15, 17, 0.847);
+}
+
+#speed span {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card {
+    background-color: rgba(13, 15, 17, 0.847);
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(39, 39, 39, 0.741);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-content #street {
+    font-size: 0.8em;
+}
+
+.card-content #heading {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 700;
+    
+    color:rgb(153, 153, 153)
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.Square2 {
+    background-color: rgb(14, 13, 13);
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.900);
+    padding-right: 8px;
+    transform: rotate(180deg);
+    width: 40px;
+}
+
+.Square3 {
+    max-height: 82%;
+    height: 82%;
+    width: 100%;
+    background-color: rgb(34, 147, 147);
+    background-image: linear-gradient(180deg, rgb(34, 147, 147) 0%, rgb(6, 72, 71) 100%);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.SquareBG2 {
+    background-color: rgb(16, 15, 15);
+    padding: 6px;
+    border-radius: 3px;
+    transform: rotate(180deg);
+}
+
+.EditHud {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(33, 36, 43);
+    width: 50vh;
+    height: 55vh;
+    border-radius: 1vh;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    user-select: none;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 1px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #39a5ee;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #39a5ee;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.HideIcon {
+    display: flex;
+    margin-top: 2vh;
+    gap: 1vh;
+}
+
+svg {
+    transform: translate(0, -5%);
+}
+
+.SettingsLine {
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: rgba(221, 220, 220, 0.271);
+    margin-top: 2vh;
+}
+
+#ScaleRange {
+    width: 100%;
+    margin-bottom: 2vh;
+    accent-color: #39a5ee;
+    border: none;
+}
+
+.slider:active {
+    border: #39a5ee 1px solid;
+}
+
+.CinemaTop {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    height: 10vh;
+}
+
+.CinemaBot {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    height: 10vh;
+}
+
+#CinemaHeight {
+    display: none;
+    background-color: rgba(33, 35, 48, 0.9);
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.185);
+    border-radius: 5px;
+    color: white;
+    font-family: Calibri;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 1vh;
+    width: 10%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Notifications {
+    display: grid;
+    position: absolute;
+    margin-top: 1%;
+    right: 2%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 1vh;
+    overflow: hidden;
+}
+
+.Notify {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #151616e2;
+    padding: 1vh;
+    color: white;
+    border: 1px solid #000000a2;
+    width: fit-content;
+    border-radius: 5px;
+    margin-right: -120vh;
+}
+
+.ProgressBar {
+    position: absolute;
+    background-color: #0e0e0ed2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    right: 43.5%;
+    bottom: -10%;
+    color: white;
+    padding: 1vh;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Bar {
+    height: 7px;
+    width: 22vh;
+    background-color: #21242b;
+    margin-top: 5px;
+}
+
+.BarFill {
+    height: 7px;
+    width: 0%;
+    background-color: #39a5ee;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+
+    </head>
+    <body>
+        <div id="notifyInfo" class="notify">
+            <div class="innerText">
+                <p class="text" id="infoMessage"></p>
+            </div>
+        </div>
+        <div id="notifySuccess" class="notify success">
+            <div class="innerText">
+                <p class="text" id="successMessage"></p>
+            </div>
+        </div>
+        <div id="notifyError" class="notify error">
+            <div class="innerText">
+                <p class="text" id="errorMessage"></p>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+    .notify {
+        flex: auto;
+        display: none;
+        position:absolute;
+        margin: 0 auto;
+        right: 1.2%;
+        bottom: 45%;
+        min-width:15%;
+        width:fit-content; 
+        height:52px;
+        background-color: #282634de;
+        border: 2px solid #302757;
+        border-radius: 9px;
+        animation: growDown 300ms ease-in-out;
+        padding-right: 10px;
+    }
+    .success {
+        border-left: 5px solid rgb(33, 223, 15) !important; 
+    }
+    .error {
+        border-left: 5px solid rgb(231, 35, 28) !important; 
+    }
+
+    .icon {
+        border: 0;
+    }
+
+    .innerText {
+        flex: auto;
+        margin-top: 11px;
+        width:100%;
+    }
+
+    p {
+        flex: auto;
+        word-wrap: break-word;
+        margin-left: 15px; 
+        margin-top: 13px;
+        animation: growDown 300ms ease-in-out;
+    }
+
+    @keyframes growDown {
+        0% {
+            transform: scaleY(0);
+        }
+        80% {
+            transform: scaleY(1.1)
+        }
+        100% {
+            transform: scaleY(1)
+        }
+    }
+</style>

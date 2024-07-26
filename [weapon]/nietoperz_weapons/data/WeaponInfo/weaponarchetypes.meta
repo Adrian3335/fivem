@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  _____ _____  ______     _  _______ ______ _____    ______     __  _   _   _   ______ _______   _____  _____  ______ _____   _____
+ / ____|  __ \|  ____|   / \|__   __|  ____|  __ \  |  _ \ \   / / | \ | | | | |  ____|__   __| / ___ \|  __ \|  ____|  __ \ |__   |
+| |    | |__) | |__     / _ \  | |  | |__  | |  | | | |_)|\ \_/ /  |  \| | | | | |__     | |   | /   \ | |__) | |__  | |__) |   / /
+| |    |  _  /|  __|   / /_\ \ | |  |  __| | |  | | |  _ < \   /   | . ` | | | |  __|    | |   | |   | |  ___/|  __| |  _  /   / /
+| |____| | \ \| |____ / _____ \| |  | |____| |__| | | |_) | | |    | |\  | | | | |____   | |   | \___/ | |    | |____| | \ \  / /__
+ \_____|_|  \_\______/_/     \_\_|  |______|_____/  |____/  |_|    |_| \_| |_| |______|  |_|    \_____/|_|    |______|_|  \_\|_____|
+Nietoperz#9211
+-->
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+	   <!-- SUPPS NIETOPERZ#9211-->
+	   <Item>
+		  <modelName>w_at_FNX_supp</modelName>
+		  <txdName>w_at_FNX_supp</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_gemtechsupp</modelName>
+		  <txdName>w_at_pi_gemtechsupp</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_glocksupp</modelName>
+		  <txdName>w_at_pi_glocksupp</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_hksupp</modelName>
+		  <txdName>w_at_pi_hksupp</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_hksupp2</modelName>
+		  <txdName>w_at_pi_hksupp2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+	   <Item>
+		  <modelName>w_at_pi_waltersupp</modelName>
+		  <txdName>w_at_pi_waltersupp</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+	   <!-- SUPPS NIETOPERZ#9211-->
+	   <Item>
+		  <modelName>w_pi_FNX</modelName>
+		  <txdName>w_pi_FNX</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_scope</modelName>
+		  <txdName>w_at_pi_scope</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_FNX_mag1</modelName>
+		  <txdName>w_pi_FNX_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		
+		<Item>
+		  <modelName>w_pi_GLOCK18</modelName>
+		  <txdName>w_pi_GLOCK18</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_GLOCK18_mag1</modelName>
+		  <txdName>w_pi_GLOCK18_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_GLOCK18_mag2</modelName>
+		  <txdName>w_pi_GLOCK18_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_M1911</modelName>
+		  <txdName>w_pi_M1911</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_M1911_luxe</modelName>
+		  <txdName>w_pi_M1911_luxe</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_M1911_mag1</modelName>
+		  <txdName>w_pi_M1911_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_M1911_mag2</modelName>
+		  <txdName>w_pi_M1911_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		 <Item>
+		  <modelName>w_pi_CZ75B</modelName>
+		  <txdName>w_pi_CZ75B</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+         <Item>
+		  <modelName>w_pi_CZ75B_mag1</modelName>
+		  <txdName>w_pi_CZ75B_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_MAKAROV</modelName>
+		  <txdName>w_pi_MAKAROV</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+        <Item>
+		  <modelName>w_pi_MAKAROV_mag1</modelName>
+		  <txdName>w_pi_MAKAROV_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_TT33</modelName>
+		  <txdName>w_pi_TT33</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+        <Item>
+		  <modelName>w_pi_TT33_mag1</modelName>
+		  <txdName>w_pi_TT33_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_M92</modelName>
+		  <txdName>w_pi_M92</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+         <Item>
+		  <modelName>w_pi_M92_mag1</modelName>
+		  <txdName>w_pi_M92_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+				<Item>
+		  <modelName>w_pi_usp</modelName>
+		  <txdName>w_pi_usp</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+         <Item>
+		  <modelName>w_pi_usp_mag1</modelName>
+		  <txdName>w_pi_usp_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_HKVP9</modelName>
+		  <txdName>w_pi_HKVP9</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_HKVP9_mag1</modelName>
+		  <txdName>w_pi_HKVP9_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_HKVP9_mag2</modelName>
+		  <txdName>w_pi_HKVP9_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_P250</modelName>
+		  <txdName>w_pi_P250</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_P250_mag1</modelName>
+		  <txdName>w_pi_P250_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_P250_mag2</modelName>
+		  <txdName>w_pi_P250_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_FNP</modelName>
+		  <txdName>w_pi_FNP</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+         <Item>
+		  <modelName>w_pi_FNP_mag1</modelName>
+		  <txdName>w_pi_FNP_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_B92FS</modelName>
+		  <txdName>w_pi_B92FS</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_B92FS_mag1</modelName>
+		  <txdName>w_pi_B92FS_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_B92FS_mag2</modelName>
+		  <txdName>w_pi_B92FS_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_G17</modelName>
+		  <txdName>w_pi_G17</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_G17_mag1</modelName>
+		  <txdName>w_pi_G17_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_G17_mag2</modelName>
+		  <txdName>w_pi_G17_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>		
+		<Item>
+		  <modelName>w_at_pi_G17_flsh</modelName>
+		  <txdName>w_at_pi_G17_flsh</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_M1911old</modelName>
+		  <txdName>w_pi_M1911old</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>	
+		<Item>
+		  <modelName>w_pi_M1911old_mag1</modelName>
+		  <txdName>w_pi_M1911old_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>	
+		<Item>
+		  <modelName>w_pi_M1911old_mag2</modelName>
+		  <txdName>w_pi_M1911old_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>	
+			<Item>
+		  <modelName>w_pi_p88</modelName>
+		  <txdName>w_pi_p88</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_p88_mag1</modelName>
+		  <txdName>w_pi_p88_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="150"/>
+		</Item>
+		<Item>
+		  <modelName>w_sg_BEANBAG</modelName>
+		  <txdName>w_sg_BEANBAG</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_PDLASER</modelName>
+		  <txdName>w_pi_PDLASER</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_tazer7</modelName>
+		  <txdName>w_pi_tazer7</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_ar_hk416c</modelName>
+		  <txdName>w_ar_hk416c</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+<Item>
+		  <modelName>w_ar_hk416c_mag1</modelName>
+		  <txdName>w_ar_hk416c_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_ar_hk416c_mag2</modelName>
+		  <txdName>w_ar_hk416c_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_ar_hk416c_afgrip</modelName>
+		  <txdName>w_at_hk416c_afgrip</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_ar_hk416c_flsh</modelName>
+		  <txdName>w_at_hk416c_flsh</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_hk416c_scope_medium</modelName>
+		  <txdName>w_at_hk416c_scope_medium</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_hk416c_supp</modelName>
+		  <txdName>w_at_hk416c_supp</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

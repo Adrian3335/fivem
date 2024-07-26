@@ -1,0 +1,345 @@
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#text{
+  width: 48em;
+  height: 80%;
+
+  padding: 4em;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 0.6em;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  background-color: var(--primary);
+
+  font-family: 'Poppins', sans-serif;
+
+  overflow: visible;
+}
+
+.tutorial-image{
+  width: 100%; 
+  border: rgba(255, 255, 255, 0.561) solid 2px;
+  cursor : default;
+}
+
+.time-display, .puzzle-display{
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.192);
+  font-weight: bolder;
+  font-size: medium;
+  cursor : default;
+}
+
+.speed-control{
+    position:absolute; 
+    bottom:0px;
+
+    margin: 20px;
+    padding: 8px;
+
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    
+    color: white;
+    background-color: var(--secondary);
+    cursor : default;
+}
+
+#puzzle-control, #speed-control{
+  margin-bottom: 8px;
+}
+
+.puzzle-control{
+  position:absolute; 
+  bottom: 48px;
+
+  margin: 20px;
+  padding: 8px;
+
+  font-size: small;
+  font-family: 'Poppins', sans-serif;
+  
+  color: white;
+  background-color: var(--secondary);
+}
+
+/* make range slider fit better with style of site (rip firefox)*/
+input[type=range]::-webkit-slider-runnable-track {
+  height: 6px;
+  background: var(--primary);
+  border-radius: 1.3px;
+}
+
+input[type=range]::-webkit-slider-thumb { margin-top: -5px; }
+
+
+.speed-label{
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+
+
+.github-link{
+    position:absolute; 
+    bottom:8px;
+    right: 0px;
+
+    padding: 10px;
+    margin: 15px;
+
+    font-size: small;
+}
+
+.question-button{
+  position:absolute; 
+  bottom:8px;
+  right: 70px;
+
+  padding: 1px 10px 2px 10px;
+  margin: 15px;
+
+  font-size: x-large;
+  font-family: 'Poppins', sans-serif;
+}
+
+.credits{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+
+    position:absolute; 
+    bottom:5px;
+    right: 5px;
+}
+
+.try-again{
+    text-align: center;
+    padding: 20px;
+    margin-top: 33em;
+    
+}
+
+.try-again-hint{
+  color: rgba(253, 253, 253, 0.267);
+  font-family: 'Poppins', sans-serif;
+  font-size: smaller;
+  padding-top: 0em;
+  line-height: 5px;
+}
+
+button{
+    background-color: var(--secondary);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #243241;
+}
+
+.answer-input-area{
+  border-bottom: 2px solid rgb(0, 214, 54);
+  border-right: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  background-color: rgba(0, 0, 0, 0);
+  
+}
+
+.answer-box-description{
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 5px;
+
+  color: #05b405;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+.answer-question{
+  text-align: center;
+  margin-top: 100px;
+  color: #05e005;
+}
+
+.answer-input{
+  color: #03da03;
+  border: transparent;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+
+  padding: 5px;
+
+  display: inline-block;
+  vertical-align: top;
+
+  font-size: 16px;
+  padding-top: 5px;
+  width: 170px;
+
+}
+
+::placeholder { 
+  color: rgba(0, 184, 24, 0.507);
+}
+
+.answer-box{
+  margin: auto;
+  width: 210px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  text-align: center;
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.answer-countdown{
+
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 3%;
+
+  border: #006e00;
+  width: 94%;
+  height: 4px;
+  background-color: #006e00;
+}
+
+.answer-progress-bar{
+  background-color: #3bf83b;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transition: width 0ms linear;
+  
+}
+
+.answer-progress-bar-shrink{
+  width: 0%;
+}
+
+.number-container{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 7rem;
+
+  text-align: center;
+  color: rgb(4, 228, 4);
+  
+  font-size: 5.5em;
+  
+  line-height: 2.0;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.can-shrink{
+  transform:scale(1);
+  transition: all 1500ms linear;
+}
+
+.number-shrink{
+  transform:scale(0);
+  transition: all 1500ms linear;
+}
+
+.square{
+  width: 175px;
+  height: 175px;
+  background-color: var(--secondary);
+  border: 3.3px solid rgb(82, 255, 82);
+
+  padding: 30px;
+  margin: 20px;
+}
+
+.hidden{
+  display:none;
+}
+
+.text-container{
+  width: 100%;
+}
+
+.loading-text{
+  text-align:center;
+  color: white;
+}
+
+.spy-icon{
+  display:block;
+    margin:auto;
+    
+}
+
+.screen-square{
+  min-width: 1200px;
+  width: auto;
+  height: 700px;
+  background-color: var(--primary);
+  border-radius: 15px;
+
+}
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+body, html {
+height: 100%;
+margin: 0;
+padding : 0;
+
+-webkit-font-smoothing: subpixel-antialiased;
+-webkit-text-stroke:1px transparent;
+}
+
+:root{
+  font-family: 'Poppins', sans-serif;
+
+  --primary : #000000;
+  --secondary : #000000;
+  border-radius: 10px;
+}
+
+.capital{
+  font-size: large;
+}
+
+.bg {
+height: 100%;
+background: transparent;
+}
+
+

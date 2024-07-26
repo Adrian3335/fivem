@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+<!--
+  _____ _____  ______     _  _______ ______ _____    ______     __  _   _   _   ______ _______   _____  _____  ______ _____   _____
+ / ____|  __ \|  ____|   / \|__   __|  ____|  __ \  |  _ \ \   / / | \ | | | | |  ____|__   __| / ___ \|  __ \|  ____|  __ \ |__   |
+| |    | |__) | |__     / _ \  | |  | |__  | |  | | | |_)|\ \_/ /  |  \| | | | | |__     | |   | /   \ | |__) | |__  | |__) |   / /
+| |    |  _  /|  __|   / /_\ \ | |  |  __| | |  | | |  _ < \   /   | . ` | | | |  __|    | |   | |   | |  ___/|  __| |  _  /   / /
+| |____| | \ \| |____ / _____ \| |  | |____| |__| | | |_) | | |    | |\  | | | | |____   | |   | \___/ | |    | |____| | \ \  / /__
+ \_____|_|  \_\______/_/     \_\_|  |______|_____/  |____/  |_|    |_| \_| |_| |______|  |_|    \_____/|_|    |______|_|  \_\|_____|
+Nietoperz#9211
+-->
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+			<modelName>w_pi_g19gru_mag1</modelName>
+			<txdName>w_pi_g19gru_mag1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>
+		<Item>
+			<modelName>w_pi_g19gru</modelName>
+			<txdName>w_pi_g19gru</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
+
